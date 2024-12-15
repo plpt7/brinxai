@@ -9,4 +9,4 @@ An automation installation for BRINX AI
 ```bash
 sudo bash -c 'git clone https://github.com/plpt7/brinxai.git && cd brinxai && chmod ugo+x brinxai.sh && ./brinxai.sh'
 ```
-3. Add your IP Address on [Dashboard](https://workers.brinxai.com/dashboard.php)
+3. Add your IP Address and 19011 port on [Dashboard](https://workers.brinxai.com/dashboard.php)

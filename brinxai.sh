@@ -5,7 +5,7 @@ set -e
 
 # enable the firewall status
 sudo apt-get install ufw
-sudo ufw enable -y
+echo "y" | sudo ufw enable
 sudo ufw allow 5011
 sudo ufw allow 5011/tcp
 sudo ufw allow 1194/udp

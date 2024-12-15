@@ -6,6 +6,8 @@ set -e
 # enable the firewall status
 sudo apt-get install ufw
 echo "y" | sudo ufw enable
+sudo ufw allow 22
+sudo ufw allow 22/tcp
 sudo ufw allow 19011
 sudo ufw allow 19011/tcp
 sudo ufw allow 1194/udp
